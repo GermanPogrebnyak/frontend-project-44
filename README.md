@@ -13,13 +13,7 @@ This is the first frontend project on https://ru.hexlet.io/
 Brain Even
 Is the number even?
 1) 
-https://asciinema.org/a/2s4PAqBL59KS1FH8H39nfiBiY
 <a href="https://asciinema.org/a/2s4PAqBL59KS1FH8H39nfiBiY" target="_blank"><img src="https://asciinema.org/a/2s4PAqBL59KS1FH8H39nfiBiY.svg" /></a>
-[![asciicast](https://asciinema.org/a/2s4PAqBL59KS1FH8H39nfiBiY.svg)](https://asciinema.org/a/2s4PAqBL59KS1FH8H39nfiBiY)
-<script id="asciicast-2s4PAqBL59KS1FH8H39nfiBiY" src="https://asciinema.org/a/2s4PAqBL59KS1FH8H39nfiBiY.js" async></script>
 
 2) 
-https://asciinema.org/a/kfigCu9WNRi32quBlvidhzExW
 <a href="https://asciinema.org/a/kfigCu9WNRi32quBlvidhzExW" target="_blank"><img src="https://asciinema.org/a/kfigCu9WNRi32quBlvidhzExW.svg" /></a>
-[![asciicast](https://asciinema.org/a/kfigCu9WNRi32quBlvidhzExW.svg)](https://asciinema.org/a/kfigCu9WNRi32quBlvidhzExW)
-<script id="asciicast-kfigCu9WNRi32quBlvidhzExW" src="https://asciinema.org/a/kfigCu9WNRi32quBlvidhzExW.js" async></script>
