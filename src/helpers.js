@@ -1,3 +1,3 @@
-export const createDataGames = (max) => Math.floor(Math.random() * max);
+const getRandomNumber = (min, max) => Math.trunc(Math.random() * (max - min) + min);
 
-export const createDataRange = (min, max) => Math.floor(Math.random() * (max - min) + min);
+export default getRandomNumber;
