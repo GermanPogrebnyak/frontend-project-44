@@ -1,32 +1,19 @@
-/* eslint-disable no-shadow */
-import readlineSync from 'readline-sync';
-import nameUser from '../cli.js';
+import GameLogic from '../index.js';
+import getRandomNumber from '../helpers.js';
 
-const evenGame = () => {
-  console.log('Welcome to the Brain Games!');
+const isEven = (num) => (num % 2 === 0);
 
-  const username = nameUser();
+const startGame = () => {
+  const task = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-  // Description
-  console.log(`Hello, ${username}!\nAnswer "yes" if the number is even, otherwise answer "no".`);
+  const getGameData = () => {
+    const question = getRandomNumber(1, 10);
+    const сalculateAnswer = (number) => ((isEven(number) ? 'yes' : 'no'));
+    const correctAnswer = сalculateAnswer(question).toString();
+    return [question, correctAnswer];
+  };
 
-  for (let i = 0; i < 3; i += 1) {
-    const randomNumber = Math.floor(Math.random() * 100);
-    // задание со случайным числом юзеру
-    const userAnswer = readlineSync.question(`Question: ${randomNumber}\n`);
-    // ответ с тернарником для замены в ответе
-    const opposite = (userAnswer === 'yes' ? 'no' : 'yes');
-    const errorMessage = (`${userAnswer} is wrong answer ;(. Correct answer was '${opposite}'. \nLet's try again, ${username}!`);
-    const isEven = (randomNumber) => randomNumber % 2 === 0;
-    const expectedAnswer = isEven(randomNumber) ? 'yes' : 'no';
-    if (expectedAnswer === userAnswer) {
-      console.log('Correct');
-    } else if (expectedAnswer !== userAnswer) {
-      return console.log(errorMessage);
-    } else {
-      return console.log(errorMessage);
-    }
-  }
-  return console.log(`Congratulations, ${username}!`);
+  return GameLogic(task, getGameData);
 };
-export default evenGame;
+
+export default startGame;
