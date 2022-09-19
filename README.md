@@ -17,3 +17,11 @@ Is the number even?
 
 2) 
 <a href="https://asciinema.org/a/kfigCu9WNRi32quBlvidhzExW" target="_blank"><img src="https://asciinema.org/a/kfigCu9WNRi32quBlvidhzExW.svg" /></a>
+
+
+Brain Calculate
+
+1)
+<a href="https://asciinema.org/a/chwq2X9ijRcmhKJ4yjYKvDWOa" target="_blank"><img src="https://asciinema.org/a/chwq2X9ijRcmhKJ4yjYKvDWOa.svg" /></a>
+2) 
+<a href="https://asciinema.org/a/knyEBqZ0PlZmnjTyiQWImrMbq" target="_blank"><img src="https://asciinema.org/a/knyEBqZ0PlZmnjTyiQWImrMbq.svg" /></a>
