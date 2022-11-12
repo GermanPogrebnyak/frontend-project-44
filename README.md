@@ -20,7 +20,7 @@ Is the number even?
 
 
 Brain Calculate
-
+What is the result of the expression?
 1)
 <a href="https://asciinema.org/a/chwq2X9ijRcmhKJ4yjYKvDWOa" target="_blank"><img src="https://asciinema.org/a/chwq2X9ijRcmhKJ4yjYKvDWOa.svg" /></a>
 2) 
