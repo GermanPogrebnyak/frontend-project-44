@@ -26,6 +26,7 @@
     "brain-prime": "bin/brain-prime.js"
   },
   "dependencies": {
+    "crlf": "^1.1.1",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
