@@ -1,4 +1,4 @@
-import commonLogic from '../index.js';
+import GameLogic from '../index.js';
 import getRandomNumber from '../helpers.js';
 
 const makeSequenceArray = (beginNum, step, length) => {
@@ -26,7 +26,7 @@ const startGame = () => {
     return [stringProgression, trueAnswer];
   };
 
-  return commonLogic(task, getGameData);
+  return GameLogic(task, getGameData);
 };
 
 export default startGame;
