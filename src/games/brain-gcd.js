@@ -1,7 +1,7 @@
-import GameLogic from '../index.js';
+import gameLogic from '../index.js';
 import getRandomNumber from '../helpers.js';
 
-const GreatestDivisor = (num1, num2) => {
+const greatestDivisor = (num1, num2) => {
   let divisor = 1;
   if (num1 % num2 === 0) {
     return num2;
@@ -23,11 +23,11 @@ const startGame = () => {
     const num1 = getRandomNumber(1, 50);
     const num2 = getRandomNumber(1, 50);
     const question = `${num1} ${num2}`;
-    const correctAnswer = String(GreatestDivisor(num1, num2));
+    const correctAnswer = String(greatestDivisor(num1, num2));
     return [question, correctAnswer];
   };
 
-  return GameLogic(task, getGameData);
+  return gameLogic(task, getGameData);
 };
 
 export default startGame;

@@ -1,5 +1,5 @@
 import getRandomNumber from '../helpers.js';
-import GameLogic from '../index.js';
+import gameLogic from '../index.js';
 
 const operators = ['*', '+', '-'];
 
@@ -29,7 +29,7 @@ const startGame = () => {
     return [question, correctAnswer];
   };
 
-  return GameLogic(task, getGameData);
+  return gameLogic(task, getGameData);
 };
 
 export default startGame;

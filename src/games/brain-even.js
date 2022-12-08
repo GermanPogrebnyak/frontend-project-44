@@ -1,4 +1,4 @@
-import GameLogic from '../index.js';
+import gameLogic from '../index.js';
 import getRandomNumber from '../helpers.js';
 
 const isEven = (num) => (num % 2 === 0);
@@ -13,7 +13,7 @@ const startGame = () => {
     return [question, correctAnswer];
   };
 
-  return GameLogic(task, getGameData);
+  return gameLogic(task, getGameData);
 };
 
 export default startGame;

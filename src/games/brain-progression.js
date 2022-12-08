@@ -1,4 +1,4 @@
-import GameLogic from '../index.js';
+import gameLogic from '../index.js';
 import getRandomNumber from '../helpers.js';
 
 const makeSequenceArray = (beginNum, step, length) => {
@@ -26,7 +26,7 @@ const startGame = () => {
     return [stringProgression, trueAnswer];
   };
 
-  return GameLogic(task, getGameData);
+  return gameLogic(task, getGameData);
 };
 
 export default startGame;
