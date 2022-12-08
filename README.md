@@ -11,6 +11,17 @@
 ## Project description:
 #### Mind Games Project - five brain training games (Even Check, Calculator, GCD, Arithmetic Progression, Prime Number)
 
+### Minimum requirements:
+```
+Node.js 13+
+```
+
+### Installation:
+```
+git clone git@github.com:GermanPogrebnyak/frontend-project-44.git
+make install 
+make lint 
+```
 
 ---
 
@@ -61,3 +72,6 @@ for start:
 brain-prime
 ```
 [![asciicast](https://asciinema.org/a/Gx498M40YwqYQxYqeA07sbwIE.svg)](https://asciinema.org/a/Gx498M40YwqYQxYqeA07sbwIE)
+
+
+
